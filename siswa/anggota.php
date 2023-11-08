@@ -29,7 +29,7 @@ if (!isset($_GET['aksi'])) {
                                 <td><?php echo $no; ?></td>
                                 <td><?php echo $data['nama']; ?></td>
                                 <td><?php echo $data['username']; ?></td>
-                                <td><?php echo '******'; ?></td>
+                                <td><?php echo $data ['password']; ?></td>
                                 <td><?php echo $data['telp']; ?></td>
                                 <td>
                                     <a href="index.php?page=anggota&aksi=edit&id=<?php echo $data['id_anggota'] ?>">Edit</a> |
